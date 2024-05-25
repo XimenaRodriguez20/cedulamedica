@@ -12,13 +12,11 @@ import org.springframework.data.mongodb.core.mapping.Field;
 @AllArgsConstructor
 public class RegisterRequest {
 
-    private String id;
     private String username;
     private String lastName;
     private String email;
     private int age;
     private String password;
-    private String role;
 
 
 

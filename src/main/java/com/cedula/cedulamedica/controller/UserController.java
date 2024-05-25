@@ -15,7 +15,7 @@ public class UserController {
 
     @RequestMapping("/auth")
     public String createUser(){
-        return "Pagina Protegina";
+        return "Pagina Protegida";
     }
 
     @RequestMapping("/noauth")

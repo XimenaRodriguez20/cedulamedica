@@ -24,13 +24,11 @@ public class AuthServiceImpl implements AuthService{
     @Override
     public AuthResponse register(RegisterRequest request) {
         var user = User.builder()
-                .id(request.getId())
                 .username(request.getUsername())
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .age(request.getAge())
                 .password(passwordEncoder.encode(request.getPassword()))
-                .role(request.getRole())
                 .build();
         userMongoRepository.save(user);
         var jwtToken = jwtService.generateToken(user);
