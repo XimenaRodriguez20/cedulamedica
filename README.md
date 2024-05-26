@@ -59,11 +59,7 @@ Luego de esto, en el ID se deben instalar todos los componentes adicionales de l
 
 ![image](https://github.com/XimenaRodriguez20/cedulamedica/assets/123812926/6a991d65-f041-40fa-ad9a-a8abe5107ba5)
 
-
-## Funcionamiento
-
-
-## Pruebas Unitarias
+## Pruebas 
 
 Se puede ver que se protegió el endpoint `/auth`, debido a que se intenta acceder sin previa autenticación y nos muestra una respuesta 403, como se ve a continuación:
 
