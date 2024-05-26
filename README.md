@@ -1,5 +1,8 @@
 # Backend-CedulaMedica
 
+### Link del video explicativo:
+https://youtu.be/mftBlukBFzk
+
 Este es un proyecto que busca ayudar a personas que puedan presentar un accidente o que cuenten con multiples enfermedades que sean de cuidado.
 
 Esta idea surge al evaluar la realidad de muchas personas, ya que a diario mueren en accidentes, debido a que las ambulancias no llegan a tiempo y asi mismo, tampoco cuentan con la información oportuna para atender a un usuario, con este aplicacion lo que se busca es que se tenga a la mano, la información más impotante para los paramedicos, con el fin de atender de manera oportuna y eficaz en el momento de un accidente.
