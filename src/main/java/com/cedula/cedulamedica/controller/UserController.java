@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", methods = {RequestMethod.POST, RequestMethod.GET})
 @RestController
 public class UserController {
 
@@ -14,8 +15,8 @@ public class UserController {
     UserMongoRepository userMongoRepository1;
 
     @RequestMapping("/auth")
-    public String createUser(){
-        return "Pagina Protegina";
+    public boolean createUser(){
+        return true;
     }
 
     @RequestMapping("/noauth")
