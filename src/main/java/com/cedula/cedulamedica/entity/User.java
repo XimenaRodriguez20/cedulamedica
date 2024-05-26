@@ -4,7 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.*;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 import org.springframework.security.core.GrantedAuthority;
@@ -30,13 +33,17 @@ public class User implements UserDetails {
     @Field
     public String lastName;
     @Field
+    @Indexed(unique = true)
     private String email;
     @Field
     private int age;
     @Field
     private String password;
     @Field
-    private String role;
+    private String role = "user";
+
+    public User(String number, String jordy, String bautis, String mail, int i, String number1) {
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
