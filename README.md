@@ -32,7 +32,8 @@ Definir el modelo de datos
 
 Se manejan tecnologias como firebase, java, spring boot, javascript, react, mongodbAtlas,css, todo esto para el diseño del backend y fronted. 
 
-![image](https://github.com/XimenaRodriguez20/cedulamedica/assets/123812926/0d8d02ba-7d3d-4a64-854b-59a9118eabe7)
+![image](https://github.com/XimenaRodriguez20/cedulamedica/assets/123812926/0e0d2184-e80e-454c-86a9-aefe388717c6)
+
 
 ## Iniciando  
   
